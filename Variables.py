@@ -6,6 +6,7 @@ class CONFIG:
     NOISE_RATIO = 0.2
     MEANS = np.array([123.68, 116.779, 103.939]).reshape((1,1,1,3)) 
     VGG_MODEL = 'pretrained-model/imagenet-vgg-verydeep-19.mat' # Pick the VGG 19-layer model by from the paper "Very Deep Convolutional Networks for Large-Scale Image Recognition".
+    VGG_MODEL_URL = 'http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat'
     STYLE_IMAGE = '' # Style image to use.
     CONTENT_IMAGE = '' # Content image to use.
     OUTPUT_DIR = 'output/'
