@@ -21,11 +21,13 @@
  * Change in Variables.py 'STYLE_IMAGE' and 'CONTENT_IMAGE' for their paths 
  * Open Teminanal and Run
        ```bash
-          python3 Training.py
+          python3 Training.py
        ```
 ## Example
-![alt text](./output/c1.jpg =300x400 "Content Image")
-![alt text](./output/S.jpg =300x400 "Style Image")
+<img align="left" width="400" height="300" src='./output/c1.jpg'>
+
+![alt text](./output/c1.jpg "Content Image")
+![alt text](./output/S.jpg "Style Image")
 ![alt text](./output/generated_image.jpg "Generated Image")
 
 ## Note:
