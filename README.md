@@ -24,12 +24,14 @@
           python3 Training.py
        ```
 ## Example
-<img align="left" width="400" height="300" src='./output/c1.jpg'>
+### Content Image
+<img align="left" width="200" height="150" src='./output/c1.jpg'>
+### Style Image
+<img align="centre" width="200" height="150" src='./output/S.jpg'>
+### Generated Image
+<img align="right" width="200" height="150" src='./output/generated_image.jpg'>
 
-![alt text](./output/c1.jpg "Content Image")
-![alt text](./output/S.jpg "Style Image")
-![alt text](./output/generated_image.jpg "Generated Image")
 
 ## Note:
    IMAGE_WIDTH,IMAGE_HEIGHT,NOISE_RATIO,LEARNINF_RATE,NUM_ITERATIONS can pe changed at Variables.py
-   Part of this code is taken from Deeplearning.ai
+   #####Part of this code is taken from Deeplearning.ai#####
