@@ -16,14 +16,16 @@
          pip install --upgrade tensorflow-gpu \
                                keras \
                                numpy \
-                               scipy ```
+                               scipy 
+      ```
  * Change in Variables.py 'STYLE_IMAGE' and 'CONTENT_IMAGE' for their paths 
  * Open Teminanal and Run
        ```bash
-         python3 Training.py```
+          python3 Training.py
+       ```
 ## Example
-![alt text](./output/c1.jpg "Content Image")
-![alt text](./output/s.jpg "Style Image")
+![alt text](./output/c1.jpg =300x400 "Content Image")
+![alt text](./output/S.jpg =300x400 "Style Image")
 ![alt text](./output/generated_image.jpg "Generated Image")
 
 ## Note:
