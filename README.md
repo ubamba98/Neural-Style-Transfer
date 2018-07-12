@@ -9,26 +9,23 @@
  4. Scipy
  5. Pretrained-VGG19 Weigths
  
- * Clone this Repo
- * Download [Pretrained-VGG19 Weigths](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat) in pretrained-model
- * Run
+* Clone this Repo
+* Download [Pretrained-VGG19 Weigths](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat) in pretrained-model
+* Run
       ```bash
          pip install --upgrade tensorflow-gpu \
                                keras \
                                numpy \
                                scipy 
       ```
- * Change in Variables.py 'STYLE_IMAGE' and 'CONTENT_IMAGE' for their paths 
- * Open Teminanal and Run
-       ```bash
+* Change in Variables.py 'STYLE_IMAGE' and 'CONTENT_IMAGE' for their paths 
+* Run
+     ```bash
           python3 Training.py
        ```
 ## Example
-### Content Image
 <img align="left" width="200" height="150" src='./output/c1.jpg'>
-### Style Image
 <img align="centre" width="200" height="150" src='./output/S.jpg'>
-### Generated Image
 <img align="right" width="200" height="150" src='./output/generated_image.jpg'>
 
 
