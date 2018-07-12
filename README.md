@@ -30,5 +30,5 @@ $ python3 Training.py
 
 
 ## Note:
-   IMAGE_WIDTH,IMAGE_HEIGHT,NOISE_RATIO,LEARNINF_RATE,NUM_ITERATIONS can pe changed at Variables.py
+   IMAGE_WIDTH,IMAGE_HEIGHT,NOISE_RATIO,LEARNINF_RATE,NUM_ITERATIONS can be changed at Variables.py
    #####Part of this code is taken from Deeplearning.ai#####
