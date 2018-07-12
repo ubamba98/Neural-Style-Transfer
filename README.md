@@ -12,17 +12,17 @@
 * Clone this Repo
 * Download [Pretrained-VGG19 Weigths](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat) in pretrained-model
 * Run
-      ```bash
-      $ pip install --upgrade tensorflow-gpu \
-                               keras \
-                               numpy \
-                               scipy 
-      ```
+```
+$ pip install --upgrade tensorflow-gpu \
+                         keras \
+                         numpy \
+                         scipy 
+```
 * Change in Variables.py 'STYLE_IMAGE' and 'CONTENT_IMAGE' for their paths 
 * Run
-     ```bash
-     $ python3 Training.py
-     ```
+```
+$ python3 Training.py
+```
 ## Example
 <img align="left" width="200" height="150" src='./output/c1.jpg'>
 <img align="left" width="200" height="150" src='./output/S.jpg'>
