@@ -25,8 +25,8 @@
        ```
 ## Example
 <img align="left" width="200" height="150" src='./output/c1.jpg'>
-<img align="centre" width="200" height="150" src='./output/S.jpg'>
-<img align="right" width="200" height="150" src='./output/generated_image.jpg'>
+<img align="left" width="200" height="150" src='./output/S.jpg'>
+<img align="left" width="200" height="150" src='./output/generated_image.jpg'>
 
 
 ## Note:
