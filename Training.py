@@ -53,7 +53,7 @@ J_content = content_cost(a_C, a_G)
 
 sess.run(model['input'].assign(style_image))
 J_style = compute_style_cost(model, CONFIG.STYLE_LAYERS)
-J = total_cost(J_content, J_style,alpha=CONFIG.ALPHA,beta=CONFIG.BETA)
+J = total_cost(J_content, J_style,alpha=CONFIG.ALPHA,beta=CONFIG.BETA)                    #comprises of both style and content losses 
 
 optimizer = tf.train.AdamOptimizer(CONFIG.LEARNINF_RATE)
 train_step = optimizer.minimize(J)
