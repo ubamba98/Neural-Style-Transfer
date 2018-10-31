@@ -4,7 +4,7 @@ from _utils import *
 from Variables import CONFIG
 import numpy as np
 
-def content_cost(a_C, a_G):
+def content_cost(a_C, a_G):                                                                       #computes content cost
     m, n_H, n_W, n_C = a_G.get_shape().as_list()
     a_C_unrolled = tf.transpose(tf.reshape(a_C,shape=(m,n_H*n_W,n_C)))
     a_G_unrolled = tf.transpose(tf.reshape(a_G,shape=(m,n_H*n_W,n_C)))
